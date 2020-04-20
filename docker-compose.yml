@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  backend-sqlite:
+    image: ito/backend-sqlite:latest
+    build: .
+    ports:
+      - 0.0.0.0:5000:5000
